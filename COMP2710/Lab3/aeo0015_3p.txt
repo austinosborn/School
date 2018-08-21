@@ -1,0 +1,84 @@
+Instructions to Play:
+  -1) To change which maze is being run, change the constant string below the include statements to the directory of the .txt file.
+  -2) To compile, cd to the directory of the .cpp. Type g++ -std=c++11 aeo0015_3.cpp
+  -3) Type ./a.out.
+  -4) Profit
+
+Below is a sample run of Maze 1, encompassing all test cases present in aeo0015-3p.pdf submitted earlier.
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+aeo0015@tux058:~$ g++ -std=c++11 Lab3.cpp
+aeo0015@tux058:~$ ./a.out
+----------------------------------------------------------
+              Welcome to Snakes and Ladders
+----------------------------------------------------------
+Please enter number of players: lkjsdfkjsdflkj
+Please enter a valid number of players: 2
+
+Enter player #1 name: Austin
+
+Enter player #2 name: Bob
+
+--------------------------
+      Austin's turn
+--------------------------
+Austin's turn to throw the dice. Hit enter
+
+Austin rolled a 5
+
+Austin is currently at node A1. You can go East(e). Please make a choice: z
+Invalid input. Please try again: e
+Austin is currently at node B1. You can go North(n). Please make a choice: n
+Austin is currently at node B2. You can go East(e) South(s) West(w). Please make a choice: e
+Austin is currently at node C2. You can go North(n) South(s) West(w). Please make a choice: N
+Austin is currently at node C3. You can go East(e) South(s) West(w). Please make a choice: e
+
+--------------------
+     Bob's turn
+--------------------
+Bob's turn to throw the dice. Hit enter
+
+Bob rolled a 6
+
+Bob is currently at node A1. You can go East(e). Please make a choice: e
+Bob is currently at node B1. You can go North(n). Please make a choice: n
+Bob is currently at node B2. You can go East(e) South(s) West(w). Please make a choice: w
+Bob is currently at node A2. You can go North(n) East(e). Please make a choice: n
+Bob is currently at node A3. You have taken a ladder to D3. You can go North(n) South(s) West(w). Please make a choice: n
+Bob is currently at node D4. You can go North(n) East(e) South(s) West(w). Please make a choice: e
+
+--------------------------
+      Austin's turn
+--------------------------
+Austin's turn to throw the dice. Hit enter
+
+Austin rolled a 4
+
+Austin is currently at node D3. You can go North(n) South(s) West(w). Please make a choice: n
+Austin is currently at node D4. You can go North(n) East(e) South(s) West(w). Please make a choice: e
+Austin is currently at node E4. You can go East(e) West(w). Please make a choice: e
+Austin is currently at node F4. You can go East(e) South(s) West(w). Please make a choice: e
+
+--------------------
+     Bob's turn
+--------------------
+Bob's turn to throw the dice. Hit enter
+
+Bob rolled a 5
+
+Bob is currently at node E4. You can go East(e) West(w). Please make a choice: e
+Bob is currently at node F4. You can go East(e) South(s) West(w). Please make a choice: e
+Bob is currently at node G4. You can go North(n) South(s) West(w). Please make a choice: n
+Bob is currently at node G5. You can go East(e) South(s). Please make a choice: e
+Bob is currently at node H5. You can go North(n) West(w). Please make a choice: n
+
+--------------------------------------
+         Congratulations Bob
+--------------------------------------
+YOU'RE WINNER :)
+  .__.
+ (|  |)
+  (  )
+  _)(_
+The steps you took were: A1 B1 B2 A2 A3 D3 D4 E4 F4 G4 G5 H5 H6
+aeo0015@tux058:~$

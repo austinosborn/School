@@ -1,0 +1,632 @@
+//NOTE: First execution is very similar to your example. Second execution demonstrates my personal test cases.
+
+//First Execution
+
+--------------------------------------------------------------------------------
+                    Welcome to the TigerBook Social Network!
+--------------------------------------------------------------------------------
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> n
+
+Enter new user name >> George
+
+----------------------------------------------------------------------------------------------
+                       Welcome to the TigerBook Social Network, George
+----------------------------------------------------------------------------------------------
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> g
+Enter new group name >> #Tigers
+
+------------------------------------------
+          #Tigers group created
+------------------------------------------
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> j
+Enter name of group you would like to join >> #Tigers
+
+----------------------------------------------------
+             George is in #Tigers group
+----------------------------------------------------
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> b
+Enter your message >> Join our new #Tigers group!
+It was fun at the beach.
+How was your summer?
+^!
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> n
+
+Enter new user name >> Mary
+
+------------------------------------------------------------------------------------------
+                      Welcome to the TigerBook Social Network, Mary
+------------------------------------------------------------------------------------------
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> j
+Enter name of group you would like to join >> #Tigers
+
+------------------------------------------------
+            Mary is in #Tigers group
+------------------------------------------------
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> m
+Enter group name >> #Tigers
+Enter message >> Welcome back, guys!
+We had so much fun in Ireland!
+^!
+
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> n
+
+Enter new user name >> Abraham
+
+------------------------------------------------------------------------------------------------
+                        Welcome to the TigerBook Social Network, Abraham
+------------------------------------------------------------------------------------------------
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> j
+Enter name of group you would like to join >> #Tigers
+
+------------------------------------------------------
+             Abraham is in #Tigers group
+------------------------------------------------------
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> u
+Enter recipient name >> Mary
+Enter the message >> Good morning Mary!
+How are you?
+^!
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> g
+Enter new group name >> #Eagles
+
+------------------------------------------
+          #Eagles group created
+------------------------------------------
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> b
+Enter your message >> Just created new eagles group
+You should join it
+^!
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> m
+Enter group name >> #Eagles
+Enter message >> Eagles have landed
+War Eagle Hey!
+^!
+
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> m
+Enter group name >> #Tigers
+Enter message >> I like your group too.
+Spent my Summer in Africa; it was amazing!
+^!
+
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> n
+
+Enter new user name >> Kate
+
+------------------------------------------------------------------------------------------
+                      Welcome to the TigerBook Social Network, Kate
+------------------------------------------------------------------------------------------
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> j
+Enter name of group you would like to join >> #Eagles
+
+------------------------------------------------
+            Kate is in #Eagles group
+------------------------------------------------
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> m
+Enter group name >> #Eagles
+Enter message >> Time for football
+War Eagle^!
+
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> ^!
+INPUT INVALID PLEASE TRY AGAIN
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> h
+
+----------------------------------
+        Kate 's Home Page
+----------------------------------
+
+
+Kate (#Eagles) >
+Time for football
+
+Abraham (#Eagles) >
+Eagles have landed
+War Eagle Hey!
+
+         Would you like to display all messages (y/n)? >> y
+
+
+Abraham (#All) >
+Just created new eagles group
+You should join it
+
+George (#All) >
+Join our new #Tigers group!
+It was fun at the beach.
+How was your summer?
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> s
+
+Enter user name to switch to >> Mary
+
+----------------------------------------------------------------------------------
+                    Welcome to TigerBook Social Network, Mary
+----------------------------------------------------------------------------------
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> h
+
+----------------------------------
+        Mary 's Home Page
+----------------------------------
+
+
+Abraham (#Tigers) >
+I like your group too.
+Spent my Summer in Africa; it was amazing!
+
+Abraham (#All) >
+Just created new eagles group
+You should join it
+
+         Would you like to display all messages (y/n)? >> y
+
+
+Abraham (Mary) >
+Good morning Mary!
+How are you?
+
+Mary (#Tigers) >
+Welcome back, guys!
+We had so much fun in Ireland!
+
+George (#All) >
+Join our new #Tigers group!
+It was fun at the beach.
+How was your summer?
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> w
+
+----------------------------------
+        Mary 's Wall Page
+----------------------------------
+
+(#Tigers) >
+Welcome back, guys!
+We had so much fun in Ireland!
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> s
+
+Enter user name to switch to >> Abraham
+
+----------------------------------------------------------------------------------------
+                      Welcome to TigerBook Social Network, Abraham
+----------------------------------------------------------------------------------------
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> w
+
+----------------------------------------
+          Abraham 's Wall Page
+----------------------------------------
+
+(#Tigers) >
+I like your group too.
+Spent my Summer in Africa; it was amazing!
+
+(#Eagles) >
+Eagles have landed
+War Eagle Hey!
+
+
+         Would you like to display all messages (y/n)? >> y
+
+(#All) >
+Just created new eagles group
+You should join it
+
+(Mary) >
+Good morning Mary!
+How are you?
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> q
+
+------------------------------------------------------------------------------------------------------------------------
+                              Thank you for using the TigerBook Social Network. War Eagle!
+------------------------------------------------------------------------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Execution 2 : My Test Cases
+// Use of the System that meets all my test cases. Demonstrates that everything is handled properly. Follows order of Test Case scenarios layed out in original document.
+
+--------------------------------------------------------------------------------
+                    Welcome to the TigerBook Social Network!
+--------------------------------------------------------------------------------
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> kl;jasdfl;kjsadf;lkj
+INPUT INVALID PLEASE TRY AGAIN
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> b
+
+Error! No currently active user!
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> m
+
+Error! No current active user!
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> u
+
+Error! No currently active user!
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> w
+
+Error! No active user!
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> h
+
+Error! No active user!
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> g
+Enter new group name >> #Tigers
+
+------------------------------------------
+          #Tigers group created
+------------------------------------------
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> j
+
+Error! No current active user!
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> s
+
+Enter user name to switch to >> Austin
+
+User doesn't exist. Please try again.
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> n
+
+Enter new user name >> Austin
+
+----------------------------------------------------------------------------------------------
+                       Welcome to the TigerBook Social Network, Austin
+----------------------------------------------------------------------------------------------
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> b
+Enter your message >> Hello All
+^!
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> m
+Enter group name >> #NOTGROUP
+
+Group not found. Would you like to create it (y/n)? >> n
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> m
+Enter group name >> #YesGroup
+
+Group not found. Would you like to create it (y/n)? >> y
+Enter message >> Hello YesGroup
+^!
+
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> u
+Enter recipient name >> NonUser
+
+User not found. Would you like to create them (y/n)? >> n
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> u
+Enter recipient name >> SoonToBeUser
+
+User not found. Would you like to create them (y/n)? >> y
+Enter the message >> Hello SoonToBeUser
+I just made you!
+^!
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> w
+
+--------------------------------------
+         Austin's Wall Page
+--------------------------------------
+
+Austin (SoonToBeUser) >
+I just made you!
+
+Austin (#YesGroup) >
+Hello YesGroup
+
+
+         Would you like to display all messages (y/n)? >> n
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> w
+
+--------------------------------------
+         Austin's Wall Page
+--------------------------------------
+
+Austin (SoonToBeUser) >
+I just made you!
+
+Austin (#YesGroup) >
+Hello YesGroup
+
+
+         Would you like to display all messages (y/n)? >> y
+
+Austin (#All) >
+Hello All
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> h
+
+--------------------------------------
+         Austin 's Home Page
+--------------------------------------
+
+
+(#All) >
+Hello All
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> j
+Enter name of group you would like to join >> #NotGroup
+
+Group not found. Would you like to create and join it (y/n)? >> n
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> j
+Enter name of group you would like to join >> #NowGroup
+
+Group not found. Would you like to create and join it (y/n)? >> y
+
+--------------------------------------------------------
+              Austin is in #NowGroup group
+--------------------------------------------------------
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> j
+Enter name of group you would like to join >> #NotGroup
+
+Group not found. Would you like to create and join it (y/n)? >> n
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> j
+Enter name of group you would like to join >> #CreateAndJoin
+
+Group not found. Would you like to create and join it (y/n)? >> y
+
+------------------------------------------------------------------
+                Austin is in #CreateAndJoin group
+------------------------------------------------------------------
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> s
+
+Enter user name to switch to >> Kate
+
+User doesn't exist. Please try again.
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> n
+
+Enter new user name >> Austin
+ERROR: User already exists. Try again.
+
+Enter new user name >> n
+
+------------------------------------------------------------------------------------
+                     Welcome to the TigerBook Social Network, n
+------------------------------------------------------------------------------------
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> n
+
+Enter new user name >> Bob
+
+----------------------------------------------------------------------------------------
+                      Welcome to the TigerBook Social Network, Bob
+----------------------------------------------------------------------------------------
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> j
+Enter name of group you would like to join >> #SoonToBeGroup
+
+Group not found. Would you like to create and join it (y/n)? >> n
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> j
+Enter name of group you would like to join >> #NowGroup
+
+--------------------------------------------------
+            Bob is in #NowGroup group
+--------------------------------------------------
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> m
+Enter group name >> #NowGroup
+Enter message >> YAY for option to create group when trying to multicast to invalid groupname.
+Yay2
+^!
+
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> s
+
+Enter user name to switch to >> Austin
+
+--------------------------------------------------------------------------------------
+                     Welcome to TigerBook Social Network, Austin
+--------------------------------------------------------------------------------------
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> s
+
+Enter user name to switch to >> InvalidUser
+
+User doesn't exist. Please try again.
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> w
+
+--------------------------------------
+         Austin's Wall Page
+--------------------------------------
+
+Austin (SoonToBeUser) >
+I just made you!
+
+Austin (#YesGroup) >
+Hello YesGroup
+
+
+         Would you like to display all messages (y/n)? >> y
+
+Austin (#All) >
+Hello All
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> s
+
+Enter user name to switch to >> Bob
+
+--------------------------------------------------------------------------------
+                    Welcome to TigerBook Social Network, Bob
+--------------------------------------------------------------------------------
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> w
+
+--------------------------------
+        Bob's Wall Page
+--------------------------------
+
+Bob (#NowGroup) >
+YAY for option to create group when trying to multicast to invalid groupname.
+Yay2
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> h
+
+--------------------------------
+        Bob's Home Page
+--------------------------------
+
+
+Bob (#NowGroup) >
+YAY for option to create group when trying to multicast to invalid groupname.
+Yay2
+
+Austin (#All) >
+Hello All
+
+Create new user (n), Broadcast (b), Multicast (m), Unicast (u), Wall page (w),
+Home page (h), Create new group (g),Join a group (j), Switch user (s), Quit (q)
+Enter selection >> q
+
+------------------------------------------------------------------------------------------------------------------------
+                              Thank you for using the TigerBook Social Network. War Eagle!
+------------------------------------------------------------------------------------------------------------------------
