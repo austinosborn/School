@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            tools:layout_editor_absoluteY="8dp"
+            tools:layout_editor_absoluteX="8dp"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2">
+
+            <EditText
+                    android:text=""
+                    android:hint="Enter note here"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView"
+                    android:layout_weight="3.5"
+                    android:layout_width="0dp"/>
+
+            <Button
+                    android:text="Add"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/button"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1.5"/>
+        </LinearLayout>
+
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="7">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/notesTable"
+                    android:orientation="vertical"/>
+        </ScrollView>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
